@@ -56,3 +56,7 @@ copy %UserProfile%\.superset\superset.db
 ```
 
 first time it will create `superset_config.py` and modify the example url to current folder(need absolute path).
+
+## startup
+.\venv\Scripts\activate
+superset run -p 8088 --with-threads --reload
